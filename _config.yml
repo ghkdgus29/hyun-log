@@ -1,6 +1,6 @@
 # Site Settings
-title: whiteblog-theme
-author: Victor Silva
+title: hyun-log
+author: hyun
 
 permalink: /:title/ #/:categories/:title/
 
@@ -9,9 +9,8 @@ plugins:
   - jekyll-gist
 
 addons:
-  back_to_top            : true                  # true (default), false
-  share_post             : true                  # true (default), false
-
+  back_to_top: true # true (default), false
+  share_post: true # true (default), false
 
 header_pages:
   # - _pages/contact.md
@@ -30,10 +29,10 @@ exclude:
   - whiteblogtheme.gemspec
 
 comments:
-  provider               : "disqus"              # false (default), "disqus"
+  provider: "disqus" # false (default), "disqus"
   disqus:
-    shortname            : "vmsilvamolina"
+    shortname: "vmsilvamolina"
 
 analytics:
   google:
-    tracking_id          : "G-GDR66JH5FZ"        # false (default), "G-XXXXXXXXXX"
+    tracking_id: "G-GDR66JH5FZ" # false (default), "G-XXXXXXXXXX"

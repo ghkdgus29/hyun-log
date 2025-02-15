@@ -11,3 +11,7 @@ gem 'sass-embedded', '~> 1.75'
 gem "jekyll-gist"
 gem "imgkit"
 gem "wkhtmltoimage-binary"
+
+gem 'csv'
+gem 'base64'
+gem 'faraday-retry'

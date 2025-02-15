@@ -1,46 +1,54 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
 
 html {
-    font-size: 16px;
-  }
-  
-  body {
-    /* background: #614bc3; */
-    background: rgb(97,75,195);
-    background: linear-gradient(40deg, rgba(97,75,195,1) 15%, rgba(68,205,213,1) 85%);
-    background: -webkit-linear-gradient(40deg, rgba(97,75,195,1) 15%, rgba(68,205,213,1) 85%);
-    width: 600px;
-    height: 330px;
-    position: relative;
+  font-size: 16px;
+}
+
+body {
+  /* background: #614bc3; */
+  background: rgb(97, 75, 195);
+  background: linear-gradient(
+    40deg,
+    rgba(97, 75, 195, 1) 15%,
+    rgba(68, 205, 213, 1) 85%
+  );
+  background: -webkit-linear-gradient(
+    40deg,
+    rgba(97, 75, 195, 1) 15%,
+    rgba(68, 205, 213, 1) 85%
+  );
+  width: 600px;
+  height: 330px;
+  position: relative;
+  margin: 0;
+}
+
+.box {
+  background-color: #fff;
+  color: #000;
+  font-family: "Space Grotesk";
+  padding: 25px;
+  margin: 20px;
+  height: 240px;
+  position: relative;
+}
+
+.title {
+  position: absolute;
+  top: 50px;
+  max-width: 500px;
+  > h2 {
     margin: 0;
+    font-size: 42px;
   }
-  
-  .box {
-    background-color: #fff;
-    color: #000;
-    font-family: 'Space Grotesk';
-    padding: 25px; 
-    margin: 20px; 
-    height: 240px;
-    position: relative;
-  }
+}
 
-  .title {
-    position: absolute;
-    top: 50px;
-    max-width: 500px;
-    > h2 {
-        margin: 0;
-        font-size: 42px;
-    }
+.footer {
+  position: absolute;
+  bottom: 50px;
+  max-width: 500px;
+  > h3 {
+    margin: 0;
+    font-size: 20px;
   }
-
-  .footer {
-    position: absolute;
-    bottom: 50px;
-    max-width: 500px;
-    > h3 {
-        margin: 0;
-        font-size: 20px;
-    }
 }

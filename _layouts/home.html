@@ -12,7 +12,7 @@ layout: default
       {% for post in posts %}
         <li class="post-resume">
           <h1 class="post-resume-title">
-            <a href="{{ post.url | relative_url }}">
+            <a class="post-title" href="{{ post.url | relative_url }}">
               <span class="underline">{{ post.title | escape }}</span>
             </a>
           </h1>

@@ -3,7 +3,8 @@ layout: default
 permalink: /categories/
 title: Categories
 ---
-<article class="post">
+
+<article class="post categories">
   <h1>
     <span class="underline">Categories</span>
   </h1>
@@ -13,21 +14,31 @@ title: Categories
       {% capture category_name %}{{ category | first }}{% endcapture %}
       <div id="#{{ category_name | slugize }}"></div>
       <p></p>
-      <h5 style='color:white !important;'><a class="badge badge-{{ category_name }}">{{ category_name }}</a></h5>
+      <h5 style="color: white !important">
+        <a class="badge badge-{{ category_name }}">{{ category_name }}</a>
+      </h5>
       <a name="{{ category_name | slugize }}"></a>
       <table>
-      {% for post in site.categories[category_name] %}
+        {% for post in site.categories[category_name] %}
         <tr>
           <th>
-            (<time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date: "%b %-d, %Y" }}</time>)
+            (<time
+              datetime="{{ post.date | date_to_xmlschema }}"
+              class="post-date"
+              >{{ post.date | date: "%b %-d, %Y" }}</time
+            >)
           </th>
-        <th>
-          <a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a>
-        </th>
-      </tr>
-      {% endfor %}
-    </table>
+          <th>
+            <a
+              class="post-title-at-category"
+              href="{{ site.baseurl }}{{ post.url }}"
+              >{{post.title}}</a
+            >
+          </th>
+        </tr>
+        {% endfor %}
+      </table>
     </div>
-{% endfor %}
+    {% endfor %}
   </div>
 </article>

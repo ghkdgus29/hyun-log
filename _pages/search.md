@@ -6,7 +6,7 @@ permalink: /search/
 ---
 
 <div id="search-container">
-  <input type="text" id="search-input" placeholder="Search for interesting stuff... or maybe not...">
+  <input type="text" id="search-input" placeholder="">
   <ul id="results-container"></ul>
 </div>
 
