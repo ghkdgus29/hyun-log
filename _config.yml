@@ -37,3 +37,6 @@ analytics:
   google:
     tracking_id: "G-GDR66JH5FZ" # false (default), "G-XXXXXXXXXX"
 
+sass:
+  style: compressed
+  sass_dir: _sass
