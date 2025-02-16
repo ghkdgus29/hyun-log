@@ -10,12 +10,12 @@ permalink: /search/
   <ul id="results-container"></ul>
 </div>
 
-<script src="{{site.baseurl}}/assets/js/jekyll-search.min.js" type="text/javascript"></script>
+<script src="/assets/js/jekyll-search.min.js" type="text/javascript"></script>
 <script type="text/javascript">
 SimpleJekyllSearch({
   searchInput: document.getElementById('search-input'),
   resultsContainer: document.getElementById('results-container'),
-  json: '{{site.baseurl}}/search.json',
+  json: '/search.json',
   searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
   limit: 50,
 })
