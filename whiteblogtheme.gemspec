@@ -6,7 +6,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Victor Silva"]
   spec.email         = ["vmsilvamolina@gmail.com"]
   spec.summary       = %q{Minimal, wide and white blogging theme for Jekyll}
-  spec.homepage      = "https://github.com/vmsilvamolina/whiteblog-theme"
+  spec.homepage      = "https://ghkdgus29.github.io/hyun-log/"
   spec.license       = "MIT"
 
   spec.metadata["plugin_type"] = "theme"
