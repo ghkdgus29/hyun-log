@@ -1,15 +1,16 @@
 ---
 title: About
-author: Victor Silva
+author: hyun
 layout: page
 permalink: /about/
 ---
 
 <div class="row">
   <div class="center">
-    <p>Hi, I'm Victor Silva, a software engineer with a passion for web development and a love for open source. I'm currently working at <a href="https://www.mercadolibre.com">Mercado Libre</a> as a Frontend Developer. I'm also a contributor to the <a href="blog.victorsilva.dev">Victor Silva Blog</a></p>
+    <p> Hi, I'm hyun. <br> I'm working at <a href="https://www.ecount.com/us">ECOUNT</a> as Backend Developer. <br>
+    I'm studying with gratitude for the recursive encounters and relationships I will exchnage in the future.</p>
   </div>
   <div class="center">
-    <img class="about-image" src="/assets/images/bio-photo.jpg">
+    <img class="about-image" src="/assets/images/hyun.jpg">
   </div>
 </div>
