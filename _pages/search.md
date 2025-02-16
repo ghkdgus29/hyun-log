@@ -10,7 +10,7 @@ permalink: /search/
   <ul id="results-container"></ul>
 </div>
 
-<script src="/assets/js/jekyll-search.min.js" type="text/javascript"></script>
+<script src="{{site.baseurl}}/assets/js/jekyll-search.min.js" type="text/javascript"></script>
 <script type="text/javascript">
 SimpleJekyllSearch({
   searchInput: document.getElementById('search-input'),
